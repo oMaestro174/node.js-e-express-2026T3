@@ -59,3 +59,10 @@ npm-debug.log*
 
 
 
+
+# Artefatos de build do Java (bin/ e obj/ já estão no topo)
+target/
+
+# O Dockerfile do labNode2/NodeJS precisa do manifesto
+!labNode2/NodeJS/package.json
+!labNode2/NodeJS/package-lock.json
